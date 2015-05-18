@@ -14,7 +14,7 @@ import java.util.ArrayList;
  * Created by arif on 5/3/15.
  */
 public class CustomAdapter extends ArrayAdapter<String>{
-
+int n;
     Context context;
     ArrayList<Employee> emp;
     public CustomAdapter(Context context, ArrayList emp) {
